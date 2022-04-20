@@ -44,4 +44,10 @@ public class Status_relationship {
     public void setChildIdNumbers(List<String> childIdNumbers) {
         this.childIdNumbers = childIdNumbers;
     }
-    
+}
+
+
+// Pada saat pengerjaan saya dibantu dan berdiskusi dengan
+// Afrian Luthfan - 1302194001
+// Raja Simontua - 1302194094
+// Refrensi Pengerjaan saya = https://lms.telkomuniversity.ac.id/course/view.php?id=19800#section-4

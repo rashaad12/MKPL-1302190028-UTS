@@ -8,12 +8,10 @@ import java.util.List;
 public class Employee extends Status_relationship {
 
 	private String employeeId;
-
 	private String firstName;
 	private String lastName;
 	private String idNumber;
 	private String address;
-
 	private boolean isForeigner;
 	private boolean gender; //true = Laki-laki, false = Perempuan
 	private int annualDeductible;
@@ -90,3 +88,11 @@ public class Employee extends Status_relationship {
 		return TaxFunction.calculateTax(monthlySalary, otherMonthlyIncome, monthWorkingInYear, annualDeductible, spouseIdNumber.equals(""), childIdNumbers.size());
 	}
 }
+
+
+
+
+// Pada saat pengerjaan saya dibantu dan berdiskusi dengan
+// Afrian Luthfan - 1302194001
+// Raja Simontua - 1302194094
+// Refrensi Pengerjaan saya = https://lms.telkomuniversity.ac.id/course/view.php?id=19800#section-4
