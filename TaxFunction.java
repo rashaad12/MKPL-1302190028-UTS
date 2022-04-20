@@ -15,9 +15,14 @@ public class TaxFunction {
 	 */
 	
 	
-	public static int calculateTax(int monthlySalary, int otherMonthlyIncome, int numberOfMonthWorking, int deductible, boolean isMarried, int numberOfChildren) {
+	public static int calculateTax(int monthlySalary, int otherMonthlyIncome, int numberOfMonthWorking, int deductible, boolean isMarried, int numberOfChildre, Status_Employee status, Status_relationship hubungan) {
 		
 		int tax = 0;
+
+		hubungan.setSpouseIdNumber(false);
+		hubungan.setSpouseName(false);
+		status.monthlySalary(15000000);
+		hubungan.numberOfChildren(0);
 		
 		if (numberOfMonthWorking > 12) {
 			System.err.println("More than 12 month working per year");
@@ -42,3 +47,9 @@ public class TaxFunction {
 	}
 	
 }
+
+
+// Pada saat pengerjaan saya dibantu dan berdiskusi dengan
+// Afrian Luthfan - 1302194001
+// Raja Simontua - 1302194094
+// Refrensi Pengerjaan saya = https://lms.telkomuniversity.ac.id/course/view.php?id=19800#section-4
